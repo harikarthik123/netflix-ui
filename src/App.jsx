@@ -11,7 +11,7 @@ import Search from "./pages/Search";
 
 export default function App(){
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/netflix-ui">
     <Routes>
       <Route exact path="/login" element={<Login />}> </Route>
       <Route exact path="/signup" element={<Signup />}> </Route>
